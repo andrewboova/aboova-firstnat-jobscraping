@@ -1,0 +1,756 @@
+{
+  "scraped_at": "2026-01-09T17:20:55.282471",
+  "total_jobs_all_groups": 9015,
+  "company_groups": {
+    "CIBC": {
+      "company_group": "CIBC",
+      "scraped_at": "2026-01-09T17:12:24.299402",
+      "total_jobs": 620,
+      "output_file": "indeed_json\\CIBC.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 697,
+        "added": 620,
+        "deduped": 0,
+        "dropped_company_mismatch": 77,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "BMO": {
+      "company_group": "BMO",
+      "scraped_at": "2026-01-09T17:14:10.295183",
+      "total_jobs": 1120,
+      "output_file": "indeed_json\\BMO.json",
+      "stats": {
+        "requests": 6,
+        "rows_seen": 2227,
+        "added": 1120,
+        "deduped": 642,
+        "dropped_company_mismatch": 465,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "National Bank of Canada": {
+      "company_group": "National Bank of Canada",
+      "scraped_at": "2026-01-09T17:14:29.706344",
+      "total_jobs": 602,
+      "output_file": "indeed_json\\National_Bank_of_Canada.json",
+      "stats": {
+        "requests": 4,
+        "rows_seen": 617,
+        "added": 602,
+        "deduped": 6,
+        "dropped_company_mismatch": 9,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Fairstone Bank": {
+      "company_group": "Fairstone Bank",
+      "scraped_at": "2026-01-09T17:14:36.071670",
+      "total_jobs": 170,
+      "output_file": "indeed_json\\Fairstone_Bank.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 170,
+        "added": 170,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Questrade Financial Group": {
+      "company_group": "Questrade Financial Group",
+      "scraped_at": "2026-01-09T17:14:41.929662",
+      "total_jobs": 88,
+      "output_file": "indeed_json\\Questrade_Financial_Group.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 89,
+        "added": 88,
+        "deduped": 0,
+        "dropped_company_mismatch": 1,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Desjardins": {
+      "company_group": "Desjardins",
+      "scraped_at": "2026-01-09T17:14:55.228097",
+      "total_jobs": 1083,
+      "output_file": "indeed_json\\Desjardins.json",
+      "stats": {
+        "requests": 26,
+        "rows_seen": 4144,
+        "added": 1083,
+        "deduped": 1592,
+        "dropped_company_mismatch": 1469,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "EQ Bank | Equitable Bank": {
+      "company_group": "EQ Bank | Equitable Bank",
+      "scraped_at": "2026-01-09T17:15:01.387642",
+      "total_jobs": 65,
+      "output_file": "indeed_json\\EQ_Bank_Equitable_Bank.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 65,
+        "added": 65,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Canada Mortgage and Housing Corporation (CMHC)": {
+      "company_group": "Canada Mortgage and Housing Corporation (CMHC)",
+      "scraped_at": "2026-01-09T17:15:07.519070",
+      "total_jobs": 111,
+      "output_file": "indeed_json\\Canada_Mortgage_and_Housing_Corporation_CMHC.json",
+      "stats": {
+        "requests": 4,
+        "rows_seen": 928,
+        "added": 111,
+        "deduped": 1,
+        "dropped_company_mismatch": 816,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Vancity": {
+      "company_group": "Vancity",
+      "scraped_at": "2026-01-09T17:15:11.169595",
+      "total_jobs": 2,
+      "output_file": "indeed_json\\Vancity.json",
+      "stats": {
+        "requests": 4,
+        "rows_seen": 64,
+        "added": 2,
+        "deduped": 2,
+        "dropped_company_mismatch": 60,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "ATB Financial": {
+      "company_group": "ATB Financial",
+      "scraped_at": "2026-01-09T17:15:12.405152",
+      "total_jobs": 49,
+      "output_file": "indeed_json\\ATB_Financial.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 49,
+        "added": 49,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Scotiabank": {
+      "company_group": "Scotiabank",
+      "scraped_at": "2026-01-09T17:15:13.849856",
+      "total_jobs": 1223,
+      "output_file": "indeed_json\\Scotiabank.json",
+      "stats": {
+        "requests": 26,
+        "rows_seen": 4839,
+        "added": 1223,
+        "deduped": 3408,
+        "dropped_company_mismatch": 208,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "nesto": {
+      "company_group": "nesto",
+      "scraped_at": "2026-01-09T17:15:15.994716",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\nesto.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 3,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 3,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Meridian Credit Union": {
+      "company_group": "Meridian Credit Union",
+      "scraped_at": "2026-01-09T17:15:18.579483",
+      "total_jobs": 30,
+      "output_file": "indeed_json\\Meridian_Credit_Union.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 32,
+        "added": 30,
+        "deduped": 0,
+        "dropped_company_mismatch": 2,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Tangerine": {
+      "company_group": "Tangerine",
+      "scraped_at": "2026-01-09T17:15:20.410274",
+      "total_jobs": 33,
+      "output_file": "indeed_json\\Tangerine.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 135,
+        "added": 33,
+        "deduped": 0,
+        "dropped_company_mismatch": 102,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Alterna Savings": {
+      "company_group": "Alterna Savings",
+      "scraped_at": "2026-01-09T17:15:21.612688",
+      "total_jobs": 17,
+      "output_file": "indeed_json\\Alterna_Savings.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 20,
+        "added": 17,
+        "deduped": 0,
+        "dropped_company_mismatch": 3,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "First National Financial LP": {
+      "company_group": "First National Financial LP",
+      "scraped_at": "2026-01-09T17:15:25.239824",
+      "total_jobs": 58,
+      "output_file": "indeed_json\\First_National_Financial_LP.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 58,
+        "added": 58,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Servus Credit Union": {
+      "company_group": "Servus Credit Union",
+      "scraped_at": "2026-01-09T17:15:26.678141",
+      "total_jobs": 17,
+      "output_file": "indeed_json\\Servus_Credit_Union.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 18,
+        "added": 17,
+        "deduped": 0,
+        "dropped_company_mismatch": 1,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Coast Capital Savings": {
+      "company_group": "Coast Capital Savings",
+      "scraped_at": "2026-01-09T17:15:27.120106",
+      "total_jobs": 17,
+      "output_file": "indeed_json\\Coast_Capital_Savings.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 17,
+        "added": 17,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "CMLS Financial": {
+      "company_group": "CMLS Financial",
+      "scraped_at": "2026-01-09T17:15:30.562951",
+      "total_jobs": 9,
+      "output_file": "indeed_json\\CMLS_Financial.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 9,
+        "added": 9,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "HomeEquity Bank": {
+      "company_group": "HomeEquity Bank",
+      "scraped_at": "2026-01-09T17:15:30.957212",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\HomeEquity_Bank.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 1,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 1,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "DUCA Financial Services Credit Union Ltd.": {
+      "company_group": "DUCA Financial Services Credit Union Ltd.",
+      "scraped_at": "2026-01-09T17:15:31.020553",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\DUCA_Financial_Services_Credit_Union_Ltd..json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Sagen": {
+      "company_group": "Sagen",
+      "scraped_at": "2026-01-09T17:15:35.683633",
+      "total_jobs": 13,
+      "output_file": "indeed_json\\Sagen.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 14,
+        "added": 13,
+        "deduped": 0,
+        "dropped_company_mismatch": 1,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Ratehub.ca": {
+      "company_group": "Ratehub.ca",
+      "scraped_at": "2026-01-09T17:15:36.740300",
+      "total_jobs": 9,
+      "output_file": "indeed_json\\Ratehub.ca.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 11,
+        "added": 9,
+        "deduped": 0,
+        "dropped_company_mismatch": 2,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Haventree Bank": {
+      "company_group": "Haventree Bank",
+      "scraped_at": "2026-01-09T17:15:40.291350",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Haventree_Bank.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "True North Mortgage": {
+      "company_group": "True North Mortgage",
+      "scraped_at": "2026-01-09T17:15:46.160825",
+      "total_jobs": 4,
+      "output_file": "indeed_json\\True_North_Mortgage.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 4,
+        "added": 4,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "MCAP": {
+      "company_group": "MCAP",
+      "scraped_at": "2026-01-09T17:15:46.685562",
+      "total_jobs": 12,
+      "output_file": "indeed_json\\MCAP.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 388,
+        "added": 12,
+        "deduped": 0,
+        "dropped_company_mismatch": 376,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Canada Guaranty": {
+      "company_group": "Canada Guaranty",
+      "scraped_at": "2026-01-09T17:15:51.187066",
+      "total_jobs": 9,
+      "output_file": "indeed_json\\Canada_Guaranty.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 11,
+        "added": 9,
+        "deduped": 0,
+        "dropped_company_mismatch": 2,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Home Trust Company": {
+      "company_group": "Home Trust Company",
+      "scraped_at": "2026-01-09T17:15:52.554497",
+      "total_jobs": 4,
+      "output_file": "indeed_json\\Home_Trust_Company.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 31,
+        "added": 4,
+        "deduped": 0,
+        "dropped_company_mismatch": 27,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Dominion Lending Centres Inc": {
+      "company_group": "Dominion Lending Centres Inc",
+      "scraped_at": "2026-01-09T17:15:57.070659",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Dominion_Lending_Centres_Inc.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 1,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 1,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "RFA Bank of Canada": {
+      "company_group": "RFA Bank of Canada",
+      "scraped_at": "2026-01-09T17:16:01.161472",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\RFA_Bank_of_Canada.json",
+      "stats": {
+        "requests": 4,
+        "rows_seen": 20,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 20,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Lendesk": {
+      "company_group": "Lendesk",
+      "scraped_at": "2026-01-09T17:16:01.316315",
+      "total_jobs": 4,
+      "output_file": "indeed_json\\Lendesk.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 4,
+        "added": 4,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Smith Financial Solutions": {
+      "company_group": "Smith Financial Solutions",
+      "scraped_at": "2026-01-09T17:16:05.210343",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Smith_Financial_Solutions.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "M3 Financial Group": {
+      "company_group": "M3 Financial Group",
+      "scraped_at": "2026-01-09T17:16:05.356898",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\M3_Financial_Group.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Marathon Mortgage Corp.": {
+      "company_group": "Marathon Mortgage Corp.",
+      "scraped_at": "2026-01-09T17:16:08.972954",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Marathon_Mortgage_Corp..json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "MERIX Financial": {
+      "company_group": "MERIX Financial",
+      "scraped_at": "2026-01-09T17:16:09.059188",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\MERIX_Financial.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "CENTUM Mortgage Network": {
+      "company_group": "CENTUM Mortgage Network",
+      "scraped_at": "2026-01-09T17:16:12.747908",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\CENTUM_Mortgage_Network.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Newton Connectivity Systems": {
+      "company_group": "Newton Connectivity Systems",
+      "scraped_at": "2026-01-09T17:16:13.251030",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Newton_Connectivity_Systems.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Paradigm Quest": {
+      "company_group": "Paradigm Quest",
+      "scraped_at": "2026-01-09T17:16:16.170191",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Paradigm_Quest.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Filogix, A Finastra Company": {
+      "company_group": "Filogix, A Finastra Company",
+      "scraped_at": "2026-01-09T17:16:16.910251",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Filogix_A_Finastra_Company.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 7,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 7,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "RATESDOTCA": {
+      "company_group": "RATESDOTCA",
+      "scraped_at": "2026-01-09T17:16:19.919049",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\RATESDOTCA.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "VERICO Canada": {
+      "company_group": "VERICO Canada",
+      "scraped_at": "2026-01-09T17:16:20.818491",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\VERICO_Canada.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Canadian Western Bank": {
+      "company_group": "Canadian Western Bank",
+      "scraped_at": "2026-01-09T17:16:24.810020",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\Canadian_Western_Bank.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 2,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 2,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "MCAN Home Mortgage Corporation": {
+      "company_group": "MCAN Home Mortgage Corporation",
+      "scraped_at": "2026-01-09T17:16:28.568146",
+      "total_jobs": 1,
+      "output_file": "indeed_json\\MCAN_Home_Mortgage_Corporation.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 1,
+        "added": 1,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Manulife Bank of Canada": {
+      "company_group": "Manulife Bank of Canada",
+      "scraped_at": "2026-01-09T17:16:29.958961",
+      "total_jobs": 171,
+      "output_file": "indeed_json\\Manulife_Bank_of_Canada.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 404,
+        "added": 171,
+        "deduped": 0,
+        "dropped_company_mismatch": 233,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "The Mortgage Centre": {
+      "company_group": "The Mortgage Centre",
+      "scraped_at": "2026-01-09T17:16:32.739891",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\The_Mortgage_Centre.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Bridgewater Bank": {
+      "company_group": "Bridgewater Bank",
+      "scraped_at": "2026-01-09T17:16:34.744424",
+      "total_jobs": 17,
+      "output_file": "indeed_json\\Bridgewater_Bank.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 20,
+        "added": 17,
+        "deduped": 0,
+        "dropped_company_mismatch": 3,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "B2B Bank": {
+      "company_group": "B2B Bank",
+      "scraped_at": "2026-01-09T17:16:36.842272",
+      "total_jobs": 0,
+      "output_file": "indeed_json\\B2B_Bank.json",
+      "stats": {
+        "requests": 2,
+        "rows_seen": 0,
+        "added": 0,
+        "deduped": 0,
+        "dropped_company_mismatch": 0,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "TD": {
+      "company_group": "TD",
+      "scraped_at": "2026-01-09T17:17:39.201038",
+      "total_jobs": 1157,
+      "output_file": "indeed_json\\TD.json",
+      "stats": {
+        "requests": 51,
+        "rows_seen": 7430,
+        "added": 1157,
+        "deduped": 3622,
+        "dropped_company_mismatch": 2651,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "Pine": {
+      "company_group": "Pine",
+      "scraped_at": "2026-01-09T17:18:14.554972",
+      "total_jobs": 3,
+      "output_file": "indeed_json\\Pine.json",
+      "stats": {
+        "requests": 29,
+        "rows_seen": 4774,
+        "added": 3,
+        "deduped": 1,
+        "dropped_company_mismatch": 4770,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    },
+    "RBC": {
+      "company_group": "RBC",
+      "scraped_at": "2026-01-09T17:20:55.280952",
+      "total_jobs": 2297,
+      "output_file": "indeed_json\\RBC.json",
+      "stats": {
+        "requests": 66,
+        "rows_seen": 16474,
+        "added": 2297,
+        "deduped": 12845,
+        "dropped_company_mismatch": 1332,
+        "dropped_missing_anchor": 0,
+        "errors": 0
+      }
+    }
+  }
+}
